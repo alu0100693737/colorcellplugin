@@ -10,7 +10,10 @@ class ColorCell extends TextCell {
     }
       this.color = colors["c"] || 'Red';
       this.background = colors["bg"] || 'black';
+
+      console.log(super.text);
   }
+
 
   draw(width, height) {
     //Pintamos con chalk
